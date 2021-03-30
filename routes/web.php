@@ -11,12 +11,8 @@
 |
 */
 
-Route::get('/countries', function () {
-    return view('countries.index');
-});
-
-Route::get('/articles', function (){
-    return view('articles.index') ;
+Route::get('/', function (){
+    return view('users.index') ;
 });
 
 Route::get('/users', function (){
